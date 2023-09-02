@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #fff;
+    padding: 40px;
+    border-bottom: 1px solid #254159;
+}
+
+nav{
+    float: left;
+    width: 30%;
+    padding: 30px 0px 0px 30px;
+    box-sizing: border-box;
+
+}
+nav ul{
+    list-style: none;
+    padding: 5px;
+}
+nav li{
+    padding: 7px;
+    background-color: #efefef;
+    margin-bottom: 2px;
+    font-size: 1.5rem
+}
+nav li:hover{
+    background-color: #afaeae;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+section article img{
+    width: 100%;
+    height: auto;
+}
+section article{
+    float: left;
+    width: 53%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+h1,h2,h3{
+    color: #254159;
+    margin-bottom: 7px;
+}
+h1{
+    font-size: 2.4rem;
+    margin-top: 35px;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+p{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+ol li{
+    font-size: 1.5rem;
+}
+ol{
+    padding-left: 30px;
+}
+#formulario{
+    background-color: #b8c8d6;
+    width: 100%;
+}
+form{
+    width: 480.891px;
+    height: 507.484px;
+    background-color: #02121c;
+    padding: 10px;
+}
+form label{
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+    }
+form h2{
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: peru;
+}
+form input{
+    width: 100%;
+    height: 30px;
+}
+.espaco{
+    padding: 10px 0;
+}
+#cor{
+    color: red;
+}
+form button{
+    padding: 10px;
+    margin-left: 175px;
+    margin-top: 30px;
+    background-color: #00ff03e6;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+form button:hover{
+    cursor: pointer;
+    border: 2px solid rgb(206, 32, 32);
+    background-color: green;
+    text-decoration: underline;
+}
+small{
+    font-size: 1rem;
+}
+hr{
+    margin-top: 5px;
+}
+#footer-form{
+    color: white;
+    background-color: transparent;
+
+ 
+}
+.fundo{
+    background-color: transparent;
+    font-size: 1rem;
+    display: inline;
+    padding: 0 5px;
+}
+#center{
+    text-align: center;
+}
+footer{
+    clear: both;;
+    padding: 40px;
+    background-color: #254159;
+    color: white;
+    text-align:center;
+}
